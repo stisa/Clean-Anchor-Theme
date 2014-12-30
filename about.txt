@@ -1,0 +1,5 @@
+Theme name:    Clean
+Description:   Clean, simple theme for Anchor CMS.
+Author name:   Stisa
+Author site:   http://stisa.altervista.org
+License:       MIT

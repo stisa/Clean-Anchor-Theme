@@ -1,0 +1,280 @@
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  height: 3em;
+  width: 100%;
+  font-size: 1em;
+  /*margin: 15px 0px;*/
+  /*color: white;*/
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-bottom: 1px solid #00bcd4;
+  -webkit-box-shadow: 0 1px 0 0 #00bcd4;
+  -moz-box-shadow: 0 1px 0 0 #00bcd4;
+  box-shadow: 0 1px 0 0 #00bcd4;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  height: 30em;
+  width: 100%;
+  font-size: 1em;
+  font-family: sans-serif;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+textarea:focus {
+  border-bottom: 1px solid #00bcd4;
+  -webkit-box-shadow: 0 1px 0 0 #00bcd4;
+  -moz-box-shadow: 0 1px 0 0 #00bcd4;
+  box-shadow: 0 1px 0 0 #00bcd4;
+}
+
+
+
+/*! PocketGrid 1.1.0
+* Copyright 2013 Arnaud Leray
+* MIT License
+*/
+/* Border-box-sizing */
+.block-group, .block, .block-group:after, .block:after, .block-group:before, .block:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Clearfix */
+.block-group {
+  *zoom: 1;
+}
+.block-group:before, .block-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.block-group:after {
+  clear: both;
+}
+
+.block-group {
+/* ul/li compatibility */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nested grid */
+.block-group > .block-group {
+  clear: none;
+  float: left;
+  margin: 0 !important;
+}
+
+/* Default block */
+.block {
+  float: left;
+  width: 100%;
+  /*padding-top: 1em; */
+}
+/*//*/
+
+.loginButton, .saveButton {border-bottom: 0px; background-color: gainsboro; margin-top: 1em;}
+/*.sidebar {display: none;}*/
+.noSidebar { 
+  background-color: rgba(186, 1, 1, 0.65);
+  width: 3em;
+  height: 3em;
+  overflow: hidden;
+  position: fixed; 
+  top: 4.1em;
+  right: 1em;
+  float: right;
+  padding: 1em 0 0 1em; 
+}/*{display: none;}*/
+.header { background-color: rgba(56, 96, 123, 0.55); margin: 0.5em; padding:1em 0 1em 1em; color: white;}
+.post { padding:0em 1em;}
+.newPost { margin-top: 1em;}
+.adds {display: none;}
+ .hide { display: none;}
+.show {display: inherit; margin-right: 1em; clear: right;}
+.sidebar {
+  background-color: rgba(186, 1, 1, 0.65);
+  display: block; 
+  width: 18.2em; 
+  height: 500px;  
+  position: fixed; 
+  top: 4.1em;
+  right: 1em;
+  padding: 1em 0em 0 0; 
+  clear: left;
+  float: right;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.post a {
+  color: rgb(144, 166, 181);
+}
+
+.sidebar a:link, .sidebar a:visited, .header a:visited, .header a:link {
+ color: white;
+ display: block;
+}
+
+.sidebar > a {
+  display: block;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.header > a {
+  padding-right: 1em;
+  float: left;
+}
+
+.articleFooter {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.twitter {
+  float: right;
+  padding-right: 1em;
+}
+
+.adds {
+  float:left; 
+  margin-right:1em;
+}
+
+.menu {
+  color: white;
+  font-size: 2em;
+  line-height: 0.5em;
+  float: right;
+  margin-right: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .show {display: inherit;margin-right: 0; clear: right;}
+  .header {width: 98.5%;}
+  .post {width: 80%;}
+  .sidebar {
+    text-align: right;
+    background-color: rgba(186, 1, 1, 0.65);
+    display: block; 
+    width: 19%; 
+    height: 5000px;  
+    position: fixed; 
+    top: 4.1em;
+    right: 1.25em;
+    padding: 1em 1em 0 0; 
+    clear: left; 
+    float: right;
+  }
+  .menu { margin-right: 0;}
+  .adds{display: inherit;  margin-left: 0.5em;}
+  .noSidebar { 
+    background-color: rgba(186, 1, 1, 0.65);
+    display: block; width: 19%; 
+    height: 3em;  
+    position: fixed; 
+    top: 4.1em;; 
+    right: 1.25em; 
+    padding: 1em 1em 0 0; 
+    clear: left; 
+    float: right;
+  }
+}
