@@ -23,5 +23,5 @@ article one, in which you can display a 120x600px ( WxH ) banner.
 
 1. Go to Admin -> Extend
 2. Click Variables
-3. Add a variable named "adds" and copy-paste the "<script>..</script>"
+3. Add a variable named "adds" and copy-paste the `<script>..</script>`
 code in it.
