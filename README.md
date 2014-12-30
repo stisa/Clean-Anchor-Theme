@@ -7,7 +7,7 @@ Simple and clean theme for Anchor CMS ( 0.9.2 )
 1. Go to the admin section
 2. Extend
 3. Variables
-4. Add a variable named twitter with your twitter username, w/o @
+4. Add a variable named "twitter" with your twitter username, w/o @
 
 ### Analytics
 
@@ -16,10 +16,10 @@ Simple and clean theme for Anchor CMS ( 0.9.2 )
 3. Add a variable named "analytics" and copy-paste the code from google 
 analytics
 
-### Adds
+### Adds/Banners
 
 There's a position on the left side of every view except the single 
-article one, in which you can display a 120x600 px ( WxH ) banner.
+article one, in which you can display a 120x600px ( WxH ) banner.
 
 1. Go to Admin -> Extend
 2. Click Variables
