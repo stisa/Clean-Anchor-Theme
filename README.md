@@ -1,6 +1,6 @@
 ## Clean Theme for Anchor CMS
 
-Simple and clean theme for Anchor CMS ( 0.9.2 ) 
+Simple and clean theme for Anchor CMS ( 0.9.2 ).  
 Also, quite responsive thanks to [PocketGrid](https://github.com/arnaudleray/pocketgrid)
 
   
