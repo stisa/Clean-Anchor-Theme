@@ -2,7 +2,8 @@
 
 Simple and clean theme for Anchor CMS ( 0.9.2 ).  
 Also, quite responsive thanks to [PocketGrid](https://github.com/arnaudleray/pocketgrid)
-
+  
+**SEARCH AND COMMENTS ARE NOT THEMED AS OF 30/12/14**  
   
 ### Twitter
 
