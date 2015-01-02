@@ -5,8 +5,7 @@
 		<title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
 
 		<meta name="description" content="<?php echo site_description(); ?>">
-		
-		<meta name="author" value="Silvio Tisato"/>
+		<meta name="author" content="Silvio Tisato"/>
     
     <link rel="stylesheet" href="<?php echo theme_url('/css/style.css'); ?>">
 		
