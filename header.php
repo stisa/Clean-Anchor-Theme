@@ -38,19 +38,26 @@
 	</head>
 
 	<body class="<?php echo body_class(); ?>">
-    <section class="header block-group">
-     <a id="logo" href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a>
-				<?php if(has_menu_items()): ?>
-						<?php while(menu_items()): ?>
-			<a href="<?php echo menu_url(); ?>" title="<?php echo menu_title(); ?>" <?php echo (menu_active() ? 'class="active"' : ''); ?> >
-				<?php echo menu_name(); ?>
+
+    <header class="header block-group">
+  
+	    <a id="logo" href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a>
+		
+			<?php if(has_menu_items()): ?>
+				<?php while(menu_items()): ?>
+		
+			<a href="<?php echo menu_url(); ?>" title="<?php echo menu_title(); ?>" <?php echo (menu_active() ? 'class="active"' : '');?> >
+					<?php echo menu_name(); ?>
 			</a>
-						<?php endwhile; ?>
+				<?php endwhile; ?>
+			
 			<div class="twitter" >
 				<a href="<?php echo twitter_url(); ?>">@<?php echo twitter_account(); ?></a>
 			</div>
+			
 				<?php endif; ?>
-    </section>
+				
+    </header>
     
 	  <aside id="sidebar" class="noSidebar block-group">
 			<b><a class="menu" onclick="changeSidebar()">&equiv;</a></b>
